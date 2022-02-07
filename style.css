@@ -3,6 +3,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+body{
+    margin: 0;
+}
 .top-banner{
     display: flex;
     width: 100%;
@@ -16,6 +19,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
 .top-text h1{
     width: 485px;
@@ -33,11 +37,23 @@
     top: 153px;
 }
 .button-live{
+    display: flex;
     width: 168px;
     height: 44px;
     background-color: #E02C6D;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.button-live:hover {
+    background-color: #3e8e41;
+  color: white;
 }
 .button-text a{
     text-decoration: none;
+    color: white;
+}
+.fa-long-arrow-alt-right{
     color: white;
 }
