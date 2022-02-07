@@ -5,7 +5,9 @@
 }
 body{
     margin: 0;
+    background-color: #FFFFFF;
 }
+/* Top Banner */
 .top-banner{
     display: flex;
     width: 100%;
@@ -57,3 +59,35 @@ body{
 .fa-long-arrow-alt-right{
     color: white;
 }
+/* Players */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2%;
+    justify-items: center;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    justify-content: center;
+}
+.player .thumbnil img {
+    height: 100%;
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+    
+}
+.player-info h2{
+    text-align: center;
+}
+.player-info p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+    
