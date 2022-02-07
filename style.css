@@ -105,6 +105,7 @@ body{
     padding-top: 5%;
     margin-bottom: 5%;
     padding-bottom: 5%;
+    background-color: #002D5F;
 }
 .highlights{
     display: flex;
@@ -117,8 +118,71 @@ body{
     width: 466px;
     height: 309px;
     text-align: justify;
+    color: #FFFFFF;
 }
 .highlight-img img{
     width: 567px;
     height: 427px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.445);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+/* social media icon*/
+.social-menu ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 30%;
+    margin-left: 50%;
+    display: flex;
+    transform: translate(-50%, -50%);
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .6s;
+}
+.social-menu ul li .fa:hover {
+    color: #fff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+/* moving icon */
+.social-menu ul li a:hover {
+    transform: translate(0, -15px);
+}
+/* Colorful icon */
+.social-menu ul li:nth-child(1) a:hover {
+   background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+   background-color: #1DA1F2;
+}
+.social-menu ul li:nth-child(3) a:hover {
+   background-color: #E4405F;
+}
+.social-menu ul li:nth-child(4) a:hover {
+   background-color: #CD201F;
+}
+.social-menu ul li:nth-child(5) a:hover {
+   background-color: #0A66C2;
 }
