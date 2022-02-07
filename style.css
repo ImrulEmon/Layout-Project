@@ -238,8 +238,39 @@ footer{
     grid-template-columns: repeat(1, 1fr);
     padding-left: 10%;
 }
-/* --------------------------------- */
-.match, footer{
+.match{
+
+}
+ .highlights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.highlight-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.match-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+.match-info p {
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.highlight-img img {
+    width: 328px;
+    height: 248px;
+    margin-top: 5%;
+} 
+ /* --------------------------------- */ 
+footer{
     display: none;
 }
 
