@@ -196,6 +196,9 @@ footer{
 /* --------------MOBILE----------------------- */
 
 @media only screen and (max-width: 767px) {
+html{
+    overflow-x: hidden;
+}
 .top-banner {
     width: 100%;
     height: 695px;
